@@ -7,6 +7,5 @@ def chunking_by(numbers, chunk):
         
         new.append(numbers[chunk*(n-1):chunk*n])
         n += 1
-        
     return new
     ...
