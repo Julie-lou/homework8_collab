@@ -10,7 +10,6 @@ def index_power(numbers, n):
         elif n not in range(len(numbers)):
             return -1
 
-print(index_power([1, 2], 3))
 >>>>>>> Stashed changes
 
 
