@@ -10,7 +10,7 @@ def remove_all_after(numbers, n):
                 
             new_list.append(y)
         return new_list
-print(remove_all_after([1, 2, 3, 4, 5], 3))
+
 
 
 
