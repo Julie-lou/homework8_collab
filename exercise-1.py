@@ -1,14 +1,16 @@
 
-numbers = [1, 2, 3, 4]
 def replace_last(numbers):
-    for x in numbers:
-        numbers.append(numbers.pop(0))
-        numbers.append(numbers.pop(0))
-        numbers.append(numbers.pop(0))
 
+    if len(numbers) <= 1:
         return numbers
-    
-print (replace_last(numbers))
+    else:
+        for x in numbers:
+            a = numbers[0]
+            numbers[0] = numbers[-1]
+            numbers.insert(1, a)
+
+            return numbers[0:-1]
+print(replace_last([3,4,5,6,7,8]))
 
 
 
