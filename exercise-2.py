@@ -1,5 +1,7 @@
 
-numbers = [1,2,3,4]
+<<<<<<< Updated upstream
+=======
+numbers = [2, 3, 4, 1]
 def index_power(numbers, n):
     for x in numbers:
         if n in range(len(numbers)):
@@ -8,7 +10,8 @@ def index_power(numbers, n):
         elif n not in range(len(numbers)):
             return -1
 
-print(index_power(numbers,2))
+print(index_power([1, 2], 3))
+>>>>>>> Stashed changes
 
 
 
