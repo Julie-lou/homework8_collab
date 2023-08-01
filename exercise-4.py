@@ -1,10 +1,12 @@
 def chunking_by(numbers, chunk):
-    if len(list) == 0:
+    if len(numbers) == 0:
         return list
-    for i in range(chunk):
-        new = []
-        new.append(numbers[0:chunk])
-        new.append(numbers[chunk:chunk*2])
-        new.append(numbers[chunk*2:chunk*3])
+    new = []
+    n = 1
+    for i in range((len(numbers) // chunk) + 1):
+        
+        new.append(numbers[chunk*(n-1):chunk*n])
+        n += 1
+        
     return new
     ...
