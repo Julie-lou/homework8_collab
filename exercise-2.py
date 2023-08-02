@@ -1,6 +1,4 @@
 
-<<<<<<< Updated upstream
-=======
 def index_power(numbers, n):
     for x in numbers:
         if n in range(len(numbers)):
@@ -8,8 +6,6 @@ def index_power(numbers, n):
             return y
         elif n not in range(len(numbers)):
             return -1
-
->>>>>>> Stashed changes
 
 
 
