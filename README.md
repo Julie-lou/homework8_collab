@@ -4,7 +4,7 @@ This week homework, required you to work in group, each member in the group must
 
 Your group should setup a git-repository for this week homework, each group is responsible to solve the 5 exercises listed below.
 
-How individual handle each exercise should be up to your group to decide. However, to show your contribution, you must use pull-request feature on git-hub to merge your answer with other group member.
+How individual handle each exercise should be up to your group to decide. However, to show your contribution, you must use pull-request feature on git-hub to merge your answer with other group member..
 
 Example:
 
