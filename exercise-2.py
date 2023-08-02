@@ -1,7 +1,6 @@
 
 <<<<<<< Updated upstream
 =======
-numbers = [2, 3, 4, 1]
 def index_power(numbers, n):
     for x in numbers:
         if n in range(len(numbers)):
